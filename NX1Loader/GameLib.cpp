@@ -1,6 +1,7 @@
 #include "GameLib.h"
 
-byte Detour::HookSection[0x10000] = { 0 };
+#pragma section(".text")
+__declspec(allocate(".text")) byte Detour::HookSection[0x10000] = { 0 };
 DWORD Detour::HookCount = 0;
 
 DWORD Detour::AllocStub() {

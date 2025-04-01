@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <xtl.h>
 
-#define GAME_TITLE_ID 0x41560817
+#define GAME_TITLE_ID 0x4156089E
 #define GAME_TITLE_UPDATE 0x8
 #define GAME_POINTER_CHECK *(DWORD*)0x82022CC4
 #define GAME_POINTER_VALUE 0x2F2F2067
